@@ -8,7 +8,7 @@ app.listen(process.env.PORT || 3000);
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: '127.0.0.1:19836', 
+    host: '127.0.0.1', 
     port: 19836,           
     username: 'the guy she tells you not to worry about',    
     version: '1.21.1'       
