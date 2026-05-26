@@ -8,10 +8,10 @@ app.listen(process.env.PORT || 3000);
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'YOUR_SERVER_IP', 
-    port: 25565,           
-    username: 'AFK_Bot_Cloud',    
-    version: '1.20.1'       
+    host: '127.0.0.1:19836', 
+    port: 19836,           
+    username: 'the guy she tells you not to worry about',    
+    version: '1.21.1'       
   });
 
   bot.on('spawn', () => {
