@@ -9,8 +9,8 @@ function createBot() {
   console.log('Attemping connection to Minecraft server...');
   
   const bot = mineflayer.createBot({
-    host: '62.141.62.25', // Ensure NO port is in this line (e.g. '142.44.22.10')
-    port: 37344,            // Ensure this is your numerical 5-digit port
+    host: 'schoolsmpseason3a1.play.hosting', // Ensure NO port is in this line (e.g. '142.44.22.10')
+    port: 63191,            // Ensure this is your numerical 5-digit port
     username: 'tgstuntwa',    
     version: '1.21.1'       // Verify your exact base Minecraft version
   });
